@@ -1,0 +1,272 @@
+body{
+    padding: 0;
+}
+div.menu{
+    width: 100%;
+    background-color:#a30023;
+}
+
+div.menu ul{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    overflow: hidden;
+}
+
+div.menu ul li{
+    float: right;
+}
+
+div.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+div.menu ul li a:hover{
+    border-bottom: 2px solid#fff;
+}
+div.menu img{
+    width: 30px;
+    height: auto;
+}
+div.header{
+    width: 100%;
+    height: 600px;
+    background: url("nganjuk.jpg") no-repeat center;
+    background-size: cover;
+
+}
+div.gelap{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    opacity: 0.7;
+}
+div.header h1{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    top: 200px;/*untuk mengatur jarak dari atas*/
+    left: 500px;/*untuk mengatur jarak dari kiri*/
+    margin-left: 200px;
+}
+
+div.header h1 label{
+    font-size: 30px;
+}
+
+div.header h1 span{
+    padding: 10px;
+    border: 2px solid#fff;
+    border-radius: 20px;
+    font-size: 15px;
+}
+div.header h1 img{
+    width: 100px;
+    height: auto;
+    margin-left: 85px;
+}
+
+div.about{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+div.about .left{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+div.about .left h1{
+    text-align: right;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 15;
+    text-transform: uppercase;
+    border-right: 5px solid red;
+    padding-right: 20px;
+}
+
+div.about .left p{
+    text-align: right;
+    color: grey;
+    font-size: 30px;
+}
+
+div.about .right{
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+
+div.about .right img{
+    width: 450px;
+    height: auto;
+    border: 10px solid#000;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+
+
+}
+
+
+
+
+
+div.penghargaan{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background: url("tugu.jpg") no-repeat center;
+    background-size: cover;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+div.gelap{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: linear-gradient(to right,#000,#000,#000,transparent);
+}
+
+
+div.penghargaan div.left{
+    width: 50%;
+    height: auto;
+    margin-top: 200px;
+    position: absolute;
+    text-align: right;
+    color:#fff;
+    border-right: 5px solid red;
+    padding-right: 20px;
+}
+
+div.penghargaan .left h1{
+    margin: 2px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
+}
+div.penghargaan .left h2{
+    margin: 2px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: grey;
+
+}
+div.penghargaan .left h3{
+    margin: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 10;
+}
+
+
+*{
+    box-sizing:border-box;
+}
+[class*="col-"]{
+    padding: 15px; float:left; width: 100%;
+}
+
+@media only screen and (min-width: 600px){
+    /*For tablets*/
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px){
+    /*For Dekstop*/
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 20px double darkgray;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}.container h1{
+    position: center;
+ }
+.box{
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    color: limegreen;
+}
+.kuliner{
+    width: 80%;
+    margin: auto;
+}
+.wisata{
+   width: 80%;
+   margin: 0 auto;
+   color: white;
+   
+}
+.wisata h1{
+    position: center;
+    
+}
+
+.bg-green{background: #66ff33; color: white;}
+.bg-blue{background: #1a75ff; color: white;}
+.bg-red{background: #ff1ab3; color: white}
+
+.semua{
+    background-color: #ffffb3;
+}
+.video{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
